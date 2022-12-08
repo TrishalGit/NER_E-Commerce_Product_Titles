@@ -55,7 +55,7 @@
  - This file is used to filter out unique product titles and map the entities with the product titles to generate separate files for 3 datasets used in the experimentation. Also has some code to generate 'text8' file used by glove.
 #### TrainTestValidationSplit.ipynb
  - This code is used to generate separate train test and validation split for each dataset.
-We might be missing some other code files used as building Amazon dataset was a long process. Feel free to reach out to our team for any help.
+#### We might be missing some other code files used as building Amazon dataset was a long process. Feel free to reach out to our team for any help.
 
 ## Experimenting on BILSTM Model Code
  - Major code reference was used from this [repository](https://github.com/jayavardhanr/End-to-end-Sequence-Labeling-via-Bi-directional-LSTM-CNNs-CRF-Tutorial)
