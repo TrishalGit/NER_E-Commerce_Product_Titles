@@ -3,25 +3,25 @@
  - We have not added the processed data files to this repository. Contact authors for more details. 
  - Check the 'NER_E-Commerce_Product_Titles.pdf' - report file for more details on references.
 ## Setup
- - Please use Google Collab for executing the code 'BILSTM_Code.ipynb'.
+ - Please use Google Collab for executing the code 'ModelCode/BILSTM_Code.ipynb'.
  - Other code files can be executed in Jupyter Notebook.
  - Check the file paths in the code before execution or if you face errors. All the required files are placed in Dataset Folder.
 ## Execution of Code
  - Copy the Dataset Folder to your drive.
- - Upload 'BILSTM_Code.ipynb' to you Google Collab account.
+ - Upload 'ModelCode/BILSTM_Code.ipynb' to you Google Collab account.
  - Enable 'GPU' access on Collab.
  - Click 'Runtime' -> 'Run all'.
  - You will get a prompt to connect to drive. This is to connect with dataset files. Accept and allow the permission.
  - Code runs for 50 Epochs approximately takes 45 min to 1 hr for a complete execution.
  - The prediction results will be stored in a file names 'result\<Type\>.tsv' file.
 ## Evaluation F1-Score
- - Execute 'F1ScoreCalculator.ipynb'. To get the F1 score on the actual labels 'labels\<Type\>.csv' and predicted labels 'result\<Type\>.tsv'.
+ - Execute 'ModelCode/F1ScoreCalculator.ipynb'. To get the F1 score on the actual labels 'labels\<Type\>.csv' and predicted labels 'result\<Type\>.tsv'.
 ## Additional Steps for Glove Data
  - We have only added our custom built word embedding vectors file 'Custom.100d.txt' for current code.
 ### Pre-Built Glove Data
  - Download Pre-Trained dataset zip file from [Glove Dataset](https://nlp.stanford.edu/data/glove.6B.zip).
  - Unzip the folder.
- - Copy the 'glove.6B.100d.txt' file to 'Dataset' folder and replace the path in 'BILSTM_Code.ipynb' file.
+ - Copy the 'glove.6B.100d.txt' file to 'Dataset' folder and replace the path in 'ModelCode/BILSTM_Code.ipynb' file.
 ### Generate custom Glove Data
  - Clone the Glove github repository in local [Github](https://github.com/stanfordnlp/GloVe).
  - Need GNU compiler to successfully execute 'make' command and build the code. Our system version used = GNU Make 3.81.
