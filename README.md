@@ -1,4 +1,7 @@
 # NER_E-Commerce_Product_Titles
+## Note
+ - We have not added the processed data files to this repository. 
+ - Check the 'NER_E-Commerce_Product_Titles.pdf' - report file for more details on references.
 ## Setup
  - Please use Google Collab for executing the code 'BILSTM_Code.ipynb'.
  - Other code files can be executed in Jupyter Notebook.
